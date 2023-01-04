@@ -1,6 +1,5 @@
 # installs pre-requisites for the project and creates a text file named token.txt in the same directory and writes the token in the file
 
-import os
 import subprocess
 import sys
 import time
@@ -15,10 +14,12 @@ install("datetime")
 token = input("Enter your bot token: ")
 with open("token.txt", "w") as f:
     f.write(token)
-    f.close()
+    f.close()    
     print("Token saved in token.txt")
-print("\n \n \n run the bot by running the run.py file MAKE SURE TO ANABLE ALL INTENTS IN THE DISCORD DEVELOPER PORTAL")
-time.sleep(2)
+print("""\n \n \n run the bot by running the run.py file MAKE SURE TO ANABLE ALL INTENTS IN THE DISCORD DEVELOPER PORTAL.
+
+When the bot is running use .setup to setup the bot""")
+time.sleep(20)
 
 
 
