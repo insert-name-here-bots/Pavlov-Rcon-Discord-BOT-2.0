@@ -17,4 +17,4 @@ async def on_ready():
     print ('setup cog loaded')
 
 def run():
-    bot.run('OTY4NjcxMjUxMjA1ODYxNDE3.G6NfNf.GZ8KaxJ7x5BWAu-tY_sKnKpjE8e-Krfowc0D6s')
+    bot.run('OTY4NjcxMjUxMjA1ODYxNDE3.G3TSko.8Pb0zAc22_lByIWo3NaOaqE6LjVO1KZH9hMfVE')
