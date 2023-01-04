@@ -15,5 +15,5 @@ class utils(commands.Cog):
 {prefix}ping - shows the bots ping
 {prefix}help - shows this message
 {prefix}setup - sets up the bot
-{prefix}rcon - sends a command to the server
+{prefix}rcon [command] - sends a command to the server can include spaces and steamid. ex.( {prefix}rcon kick 76561198000000000) 
         """)
