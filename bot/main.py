@@ -7,7 +7,7 @@ from pavlov_commands import pavlov_rcon
 with open("token.txt", "r") as f:
     token = f.read()
     f.close()
-#checks to see if a file called data.txt exists and contains the string "setup complete" function
+
 
 
 intents = discord.Intents.all()
