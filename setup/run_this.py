@@ -17,6 +17,8 @@ with open("token.txt", "w") as f:
     f.write(token)
     f.close()
     print("Token saved in token.txt")
-    time.sleep(2)
+print("\n \n \n run the bot by running the run.py file MAKE SURE TO ANABLE ALL INTENTS IN THE DISCORD DEVELOPER PORTAL")
+time.sleep(2)
 
-print("Setup complete")
+
+
