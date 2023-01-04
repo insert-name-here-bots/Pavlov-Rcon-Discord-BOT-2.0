@@ -14,4 +14,6 @@ class utils(commands.Cog):
         await ctx.send(f"""Commands:
 {prefix}ping - shows the bots ping
 {prefix}help - shows this message
+{prefix}setup - sets up the bot
+{prefix}rcon - sends a command to the server
         """)
