@@ -1,8 +1,11 @@
 import discord 
 from discord.ext import commands
 from utils_commands import utils
-from setup import setup_commands
-
+from setup_commands import setup_commands
+#gets the token from the token.txt file
+with open("token.txt", "r") as f:
+    token = f.read()
+    f.close()
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='.', intents=intents)
@@ -17,4 +20,4 @@ async def on_ready():
     print ('setup cog loaded')
 
 def run():
-    bot.run('OTY4NjcxMjUxMjA1ODYxNDE3.G3TSko.8Pb0zAc22_lByIWo3NaOaqE6LjVO1KZH9hMfVE')
+    bot.run(token)
