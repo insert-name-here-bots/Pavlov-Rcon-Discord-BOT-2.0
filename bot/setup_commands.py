@@ -23,5 +23,5 @@ class setup_commands(commands.Cog):
         f.write(password.content + "\n")
         f.close()
         await ctx.send("setup complete")
-         
+         #
       
