@@ -3,7 +3,7 @@ from discord.ext import commands
 from utils_commands import utils
 from setup_commands import setup_commands
 from pavlov_commands import pavlov_rcon
-#gets the token from the token.txt file
+#gets the token from the token.txt file.
 with open("token.txt", "r") as f:
     token = f.read()
     f.close()
