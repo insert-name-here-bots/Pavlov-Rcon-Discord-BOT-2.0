@@ -6,4 +6,4 @@ Requires all intents make sure to enable them
 
 Any questions DM -insert name here-#0001 on discord
 
-needs python 3.7+
+needs python 3.8+
