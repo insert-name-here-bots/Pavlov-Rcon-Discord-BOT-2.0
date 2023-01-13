@@ -8,7 +8,7 @@ Any questions DM -insert name here-#0001 on discord
 
 needs python 3.8+
 
-#Setup
+# Setup
 
 go into the setup folder and run the run_this.py script and follow the instructions given.
 
